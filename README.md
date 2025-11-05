@@ -49,6 +49,9 @@ pnpm run dev
 — Добавление количества товаров к сравнению, максимум 6
 — Функция "показать различия", которая скрывает все одинаковые поля у товаров
 
+<img width="979" height="715" alt="image" src="https://github.com/user-attachments/assets/79b0f262-af0f-459d-b499-e1c87dbc8c25" />
+
+
 #Технологии:
 
 Vue 3 (Composition API)
