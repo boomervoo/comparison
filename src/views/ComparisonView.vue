@@ -4,7 +4,7 @@ import TableList from '@/components/TableList.vue'
 import arrow from '@/assets/img/svg/arrow.svg'
 import ProductModal from '@/components/ProductModal.vue'
 import { onClickOutside } from '@vueuse/core'
-import { ref, watch } from 'vue'
+import { ref } from 'vue'
 import { storeToRefs } from 'pinia'
 
 const storeProd = useProductStore()
@@ -30,8 +30,6 @@ const openModalWithPosition = (event: MouseEvent, prodId: number) => {
 onClickOutside(modalRef, () => {
   storeProd.closeModal()
 })
-
-watch(replaceModal.isOpen)
 </script>
 
 <template>
