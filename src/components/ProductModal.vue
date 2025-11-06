@@ -8,6 +8,7 @@ const props = defineProps<{
   productsHidden: Product[]
   currentProductId: number | null
 }>()
+
 const emit = defineEmits<{
   replace: [productId: number]
   close: []

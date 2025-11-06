@@ -167,11 +167,13 @@ export const useProductStore = defineStore('product', () => {
 
   const openModal = (productId: number) => {
     replaceModal.value = { isOpen: true, selectedProduct: productId }
+    document.body.classList.add('no-scroll')
     openedModalId.value = productId
   }
 
   const closeModal = () => {
     replaceModal.value = { isOpen: false, selectedProduct: null }
+    document.body.classList.remove('no-scroll')
     openedModalId.value = null
   }
 

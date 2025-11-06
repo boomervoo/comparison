@@ -72,8 +72,8 @@ const formateFieldValue = (fieldKey: string, value: string | number | boolean) =
 
 <style scoped lang="scss">
 .comparison {
-  max-width: 100%;
   overflow-x: auto;
+  width: 100%;
 
   &__table {
     display: flex;
@@ -85,6 +85,7 @@ const formateFieldValue = (fieldKey: string, value: string | number | boolean) =
   &__table-row {
     display: flex;
     gap: 30px;
+    justify-content: space-between;
     border-bottom: 1px solid #ccc;
 
     &:last-child {
