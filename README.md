@@ -21,6 +21,8 @@ Vite
 SCSS
 PNPM
 
+site — https://comparison-k446ceaog-boomervoos-projects.vercel.app/
+
 Launching the project
 
 ## Project Setup
@@ -51,6 +53,7 @@ pnpm run dev
 
 <img width="979" height="715" alt="image" src="https://github.com/user-attachments/assets/79b0f262-af0f-459d-b499-e1c87dbc8c25" />
 
+Посмотреть проект — https://comparison-k446ceaog-boomervoos-projects.vercel.app/
 
 #Технологии:
 
