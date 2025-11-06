@@ -1,43 +1,72 @@
-<<<<<<< HEAD
+
 # comparison
 =======
 # comprasion
 
-This template should help get you started developing with Vue 3 in Vite.
+The comparison feature has been implemented on the product page (SPA).
 
-## Recommended IDE Setup
+#About
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+Implemented:
+— The ability to compare a user-defined number of products. The number of products in the comparison is set by the user.
+— When you click on the icon “” next to the image of any of the products, a pop-up appears with the remaining products in the selection.
+— Replacement of a product from the selection list. 
+— Adding products to the comparison, up to a maximum of 6.
+— The “show differences” function, which hides all identical fields for products.
 
-## Type Support for `.vue` Imports in TS
+#Technologies
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+Vue 3 (Composition API)
+Vite 
+SCSS
+PNPM
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
+Launching the project
 
 ## Project Setup
 
+# Installing dependencies
 ```sh
 pnpm install
 ```
 
-### Compile and Hot-Reload for Development
+# Launching in development mode
 
 ```sh
-pnpm dev
+pnpm run dev
 ```
 
-### Type-Check, Compile and Minify for Production
+—————————————————————————
+#Сравнение 
 
+Здесь реализован функционал сравнения на странице товаров (SPA)
+
+#Что реализовано:
+
+— возможность вывода к сравнению определённого пользователем количества товаров. Количество товаров в сравнении задаётся пользователем
+— По нажатию на иконку «» возле изображения любого из товаров, появляется всплывающее с оставшимимся товарами в выборке
+— Замена товара из списка выборки 
+— Добавление количества товаров к сравнению, максимум 6
+— Функция "показать различия", которая скрывает все одинаковые поля у товаров
+
+<img width="979" height="715" alt="image" src="https://github.com/user-attachments/assets/79b0f262-af0f-459d-b499-e1c87dbc8c25" />
+
+
+#Технологии:
+
+Vue 3 (Composition API)
+Vite 
+SCSS
+PNPM
+
+#Запуск проекта
+
+# Установка зависимостей
 ```sh
-pnpm build
+pnpm install
 ```
 
-### Lint with [ESLint](https://eslint.org/)
-
+# Запуск в режиме разработки
 ```sh
-pnpm lint
+pnpm run dev
 ```
->>>>>>> 2168152 (Project init)
